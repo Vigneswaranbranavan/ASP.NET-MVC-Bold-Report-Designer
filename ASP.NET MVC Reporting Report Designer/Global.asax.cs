@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using BoldReports.Web;
 
 namespace ASP.NET_MVC_Reporting_Report_Designer
 {

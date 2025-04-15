@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using BoldReports.Web;
 
 namespace ASP.NET_MVC_Reporting_Report_Designer
 {
@@ -19,6 +20,10 @@ namespace ASP.NET_MVC_Reporting_Report_Designer
                 routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            // Register extensions assembly into report designer
+            ReportConfig.DefaultSettings = new ReportSettings().RegisterExtensions(new List<string> { "BoldReports.Data.WebData" });
         }
+
     }
 }

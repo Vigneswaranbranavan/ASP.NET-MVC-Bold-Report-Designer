@@ -48,6 +48,9 @@
     <Reference Include="Bold.Licensing, Version=9.1462.7.0, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
       <HintPath>..\packages\Bold.Licensing.9.1.7\lib\net462\Bold.Licensing.dll</HintPath>
     </Reference>
+    <Reference Include="BoldReports.Data.WebData, Version=9.1462.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BoldReports.Data.WebData.9.1.7\lib\net462\BoldReports.Data.WebData.dll</HintPath>
+    </Reference>
     <Reference Include="BoldReports.Mvc, Version=7.1400.10.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>..\packages\BoldReports.Mvc4.7.1.10\lib\net40\BoldReports.Mvc.dll</HintPath>
     </Reference>
